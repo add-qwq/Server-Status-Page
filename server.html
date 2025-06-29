@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft 服务器状态监测</title>
-    <script src="https://cdn.tailwindcss.com/"></script>
+    <script src="../cdn/tailwindcss-3.4.16.js"></script>
     <link href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <script>
@@ -56,7 +56,8 @@
                         'glass-hover': '0 20px 40px -5px rgba(22, 93, 255, 0.2)',
                     },
                     backdropBlur: {
-                        'xs': '2px',
+                        'sm': '5px',
+                        'md': '12px',
                     },
                 },
             }
@@ -66,7 +67,7 @@
     <style type="text/tailwindcss">
         @layer utilities {
             .glass-effect {
-                @apply bg-frost-white/30 backdrop-blur-xs border border-frost-gray/20 rounded-2xl;
+                @apply bg-frost-white/35 backdrop-blur-sm border border-frost-gray/30 rounded-2xl;
             }
             .bg-pattern {
                 /*background-image: url('tp/1 (6).png');*/
@@ -185,7 +186,7 @@
                         <span id="misaki-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="misaki-updated">--</span></span>
                 </div>
             </div>
@@ -215,7 +216,7 @@
                         <span id="venity-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="venity-updated">--</span></span>
                 </div>
             </div>
@@ -245,7 +246,7 @@
                         <span id="hive-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="hive-updated">--</span></span>
                 </div>
             </div>
@@ -275,7 +276,7 @@
                         <span id="lifeboat-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="lifeboat-updated">--</span></span>
                 </div>
             </div>
@@ -305,7 +306,7 @@
                         <span id="zeqa-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="zeqa-updated">--</span></span>
                 </div>
             </div>
@@ -335,7 +336,7 @@
                         <span id="cubecraft-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="cubecraft-updated">--</span></span>
                 </div>
             </div>
@@ -366,7 +367,7 @@
                         <span id="fap-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="fap-updated">--</span></span>
                 </div>
             </div>
@@ -397,7 +398,7 @@
                         <span id="solaria-port" class="text-lg">未知</span>
                     </div>
                 </div>
-                <div class="mt-6 pt-4 border-t border-frost-gray/30 flex justify-between items-center">
+                <div class="mt-6 pt-4 border-t-2 border-gray-700/20 flex justify-between items-center">
                     <span class="text-xs text-dark-slate">更新于 <span id="solaria-updated">--</span></span>
                 </div>
             </div>
